@@ -4020,10 +4020,10 @@ body.is-loading #banner > .inner {
 /******************************ABOUT*/
 
 #about {
-    background: url(../../images/2%20zdjecie%20o%20mnie.jpg);
+    background: url(../../images/2%20zdjecie%20o%20mnie.jpg) fixed;
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /*#about img {
@@ -4083,6 +4083,7 @@ body.is-loading #banner > .inner {
     position: absolute;
     bottom: 0;
     left: 0;
+    padding-top: 35px;
      
 }
 #offer .text3  {
@@ -4091,7 +4092,7 @@ body.is-loading #banner > .inner {
     position: absolute;
     bottom: 0;
     left: 0;
-     
+     padding-top: 35px;
 }
 #offer .text2   {
     background: yellow;
@@ -4099,7 +4100,7 @@ body.is-loading #banner > .inner {
     position: absolute;
     bottom: 0;
     left: 0;
-     
+     padding-top: 35px;
 }
 #offer .foto2 {
     background: url(../../images/kettlebell.jpg) no-repeat center;
@@ -4150,6 +4151,65 @@ body.is-loading #banner > .inner {
     margin: 0 0 0.75em 0;
     font-weight: bold;
 }
+
+
+/****METODY TRENINGU ****************************/
+
+#metody {
+    background-color: #0b0723;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#metody a {
+    font-size: x-large;
+    text-align: center;
+    color: black;    
+}
+#metody h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 4em;
+}
+#metody span {
+    color: white;
+}
+#metody .foto1 {
+    background: url(../../images/wzorce%20ruchowe.jpg) no-repeat center;
+    height: 500px;
+    margin: 20px;
+    position: relative;
+
+}
+#metody .text1   {
+    background: yellow;
+     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 35px;
+     
+}
+
+#metody .text2   {
+    background: yellow;
+     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     padding-top: 35px;
+}
+#metody .foto2 {
+    background: url(../../images/metody%20treningu.jpg) no-repeat center;
+    height: 500px;
+     margin: 20px;
+}
+
+
+
+
+ 
+
 
 
 #main {
