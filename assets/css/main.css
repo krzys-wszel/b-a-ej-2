@@ -4179,6 +4179,7 @@ body.is-loading #banner > .inner {
     height: 500px;
     margin: 20px;
     position: relative;
+    
 
 }
 #metody .text1   {
@@ -4203,12 +4204,22 @@ body.is-loading #banner > .inner {
     background: url(../../images/metody%20treningu.jpg) no-repeat center;
     height: 500px;
      margin: 20px;
+  
 }
 
+#kontakt  {
+    background: url(../../images/napisz%20do%20mnie.jpg) no-repeat center;
+padding-bottom: 75px;
+    padding-top: 75px;
+}
 
-
-
- 
+#kontakt .submit-btn {
+    background: yellow;
+     
+}
+#kontakt p {
+    color: black;
+}
 
 
 

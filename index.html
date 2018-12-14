@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--  <link rel="stylesheet" href="/assets/css/style.css" />-->
+ 
 </head>
 
 <body>
@@ -101,7 +102,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-sm foto1">
+                <div class="col-md foto1">
 
                     <div class="text1">
                         <a href="Full_body.html">
@@ -109,14 +110,14 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm foto2">
+                <div class="col-md foto2">
                     <div class="text2">
                         <a href="kettlebel.html">
                             <p>Centrum Kettlebell</p>
                         </a>
                     </div>
                 </div>
-                <div class="col-sm foto3">
+                <div class="col-md foto3">
                     <div class="text3">
                         <a href="#">
                             <p>Cwiczenia Relaksacyjne</p>
@@ -146,7 +147,7 @@
 
  <div class="container">
             <div class="row">
-                <div class="col-sm foto1">
+                <div class="col-md foto1">
 
                     <div class="text1">
                         <a href="metodyka.html">
@@ -154,7 +155,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm foto2">
+                <div class="col-md foto2">
                     <div class="text2">
                         <a href="etapy.html">
                             <p>Etapy nauki</p>
@@ -166,6 +167,42 @@
         </div>
     </section>
 
+    <section id="kontakt">
+      <div class="container"> 
+           <div class="row">
+           <div class="col-md left">
+           
+       </div>
+       <div class="col-md right">
+       <form class="form" id="contactForm" method="post" novalidate action="/send-scripts.php">
+    <div class="form-row">
+        <label for="field-name">Name*</label>
+        <input type="text" name="name" required id="field-name" data-error="Wypełnij to pole" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+    </div>
+    <div class="form-row">
+        <label for="field-email">Email*</label>
+        <input type="email" name="email" required id="field-email" data-error="Wpisz poprawny email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+    </div>
+    <div class="form-row">
+        <label for="field-message">Message*</label>
+        <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message" pattern=".+"></textarea>
+    </div>
+    <div class="form-row">
+        <label class="checkbox-cnt">
+            <input type="checkbox" data-error="Musisz wypełnić pole" name="regulation">
+            <i class="state" aria-hidden="true"></i>
+            <span> Błażej Sobala <br> Tel. 555-555-555 <br> e-mail: sobala@wp.pl</span>
+        </label>
+    </div>
+    <div class="form-row">
+        <button type="submit" class="submit-btn">
+            <p>Wyślij</p>
+        </button>
+    </div>
+</form>
+    </div>
+    </div>
+    </div>
     </section>
 
 
@@ -186,6 +223,17 @@
         </div>
     </footer>
     <!-- Scripts -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -194,6 +242,7 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="script.js"> </script>
 
 </body>
 </html>
