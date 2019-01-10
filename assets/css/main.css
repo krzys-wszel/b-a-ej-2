@@ -97,6 +97,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
 }
 
 article,
@@ -3276,10 +3277,11 @@ table.alt tbody tr td {
 
 /* Header */
 
-body {
+/*body {
     padding-top: 4.125em;
-}
+}*/
 
+ 
 #header {
     background: #1c1c1c;
     color: rgba(255, 255, 255, 0.75);
@@ -3731,9 +3733,9 @@ body {
 }
 
 #banner {
-    background: url('../../images/1.jpg') center top fixed !important;
+    background: url('../../images/1.jpg') center fixed ;
     z-index: 1000;
-    top: 10%;
+ /*   top: 10%;*/
     height: 100vh;
     /*color: rgba(255, 255, 255, 0.75);*/
     text-align: center;
@@ -3954,15 +3956,23 @@ body {
 }
 
 #banner h1 {
-    font-size: 3em;
-    line-height: 1.45;
-    margin: 0 0 0.75em 0;
-    font-weight: bold;
+    font-size: 4em;
+     line-height: 0;
+   /* margin: 0 0 0.75em 0;*/
+    
 }
 
-#banner span {
-    color: yellow;
+#banner h3 {
+    color: #f2d205;
+    font-size: 9em;
+    line-height: 0;
+}
+#banner h2 {
+    font-size: 3em;
+    line-height: 0;
+   /* margin: 0 0 0.75em 0;*/
     
+   
 }
 
 #banner > .inner {
@@ -3975,7 +3985,7 @@ body {
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 #banner > .inner > :last-child {
@@ -4052,21 +4062,21 @@ body.is-loading #banner > .inner {
 }
 
 #about span {
-    color: yellow;
+    color: #f2d205;
 }
 
 /****OFFER********************************************/
 
 #offer {
-    background-color: #0b0723;
+    background-color:  #2c313e;
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
 }
 #offer a {
-    font-size: x-large;
+     
     text-align: center;
-    color: black;
+    color: white;
     
 }
 
@@ -4078,7 +4088,7 @@ body.is-loading #banner > .inner {
 
 }
 #offer .text1   {
-    background: yellow;
+    background: #f2d205;
      width: 100%;
     position: absolute;
     bottom: 0;
@@ -4087,7 +4097,7 @@ body.is-loading #banner > .inner {
      
 }
 #offer .text3  {
-    background: yellow;
+    background: #f2d205;
      width: 100%;
     position: absolute;
     bottom: 0;
@@ -4095,7 +4105,7 @@ body.is-loading #banner > .inner {
      padding-top: 35px;
 }
 #offer .text2   {
-    background: yellow;
+    background: #f2d205;
      width: 100%;
     position: absolute;
     bottom: 0;
@@ -4138,7 +4148,16 @@ body.is-loading #banner > .inner {
     text-align: right;
     color: white;
     font-size: 5em;
-    line-height: 1.45;
+    line-height: 0;
+    margin: 0 0 0.75em 0;
+    font-weight: bold;
+    margin-top: 75px;
+}
+#personal h2 {
+    text-align: right;
+    color: white;
+    font-size: 4em;
+    line-height: 0;
     margin: 0 0 0.75em 0;
     font-weight: bold;
 }
@@ -4147,7 +4166,7 @@ body.is-loading #banner > .inner {
     text-align: right;
     color: white;
     font-size: 3em;
-    line-height: 1.45;
+    line-height: 1.5;
     margin: 0 0 0.75em 0;
     font-weight: bold;
 }
@@ -4156,19 +4175,19 @@ body.is-loading #banner > .inner {
 /****METODY TRENINGU ****************************/
 
 #metody {
-    background-color: #0b0723;
+    background-color:  #2c313e;
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
 }
 #metody a {
-    font-size: x-large;
+     
     text-align: center;
-    color: black;    
+    color: white;    
 }
 #metody h1 {
     text-align: center;
-    color: yellow;
+    color: #f2d205;
     font-size: 4em;
 }
 #metody span {
@@ -4183,7 +4202,7 @@ body.is-loading #banner > .inner {
 
 }
 #metody .text1   {
-    background: yellow;
+    background: #f2d205;
      width: 100%;
     position: absolute;
     bottom: 0;
@@ -4193,7 +4212,7 @@ body.is-loading #banner > .inner {
 }
 
 #metody .text2   {
-    background: yellow;
+    background: #f2d205;
      width: 100%;
     position: absolute;
     bottom: 0;
@@ -4214,11 +4233,11 @@ padding-bottom: 75px;
 }
 
 #kontakt .submit-btn {
-    background: yellow;
+    background: #f2d205;
      
 }
 #kontakt p {
-    color: black;
+    color: white;
 }
 
 
