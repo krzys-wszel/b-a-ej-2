@@ -1,37 +1,63 @@
 <!DOCTYPE HTML>
 <!--
-	 made by Vis-Art Krzysztof Wszelaki-->
+	 made by Vis-Art Krzysztof Wszelaki
+-->
 <html>
-	<head>
+
+<head>
     <title>Błażej Sobala - instruktor StrongFirst</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="/assets/css/style.css" />-->
+
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+            <img src="images/B%C5%82azej%20Sobala%20White.svg" alt="Logo" style="width:270px;">
+        </a>
 
-    <!-- Header -->
-    <header id="header">
-      <!--  <a href="index.html" class="logo"><strong>logo</strong> logo logo</a> -->
-        <img src="images/logo_nav.png" class="logo"> 
-           <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Index</a></li>
-            
-            <li><a href="kettlebel.html">Kettlebel</a></li>
-            <li><a href="omnie.html">O mnie</a></li>
-            <li><a href="metodyka.html">Metodtka</a></li>
-            <li><a href="etapy.html">Etapy</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-				</ul>
-			</nav>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="omnie.html">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="etapy.html">Etapy nauki</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="metodyka.html">Metodyka treningu</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Oferta
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Full_body.html">Full body workout</a>
+                        <a class="dropdown-item" href="kettlebel.html">Centrum kettlebell</a>
+                        <a class="dropdown-item" href="#">Ćwiczenia relaksacyjne</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
 
 		<!-- Main -->
 			<section id="main">
